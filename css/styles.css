@@ -1,0 +1,146 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+
+}
+
+body{
+  font-family:'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  
+  }
+
+  header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+height: 98px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+position: fixed;
+top: 0;
+left: 0;
+box-shadow: 0.3px 8px 5px rgb(38, 38, 39)
+
+  }
+
+.logo{
+width: 120px;
+}
+ul{
+list-style: none;
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+main{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+min-height: 10vh;
+padding-top: 100px;
+
+}
+
+section#inicio {
+justify-content: space-around;
+
+}
+
+article.presentacion{
+  width: 100%;
+  text-align: center;
+}
+a.boton{
+  background-color: rgb(233, 186, 225);
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+figure.imgj{
+  border-radius: 50%;
+}
+article.hablemos{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 186, 225);
+  border-radius: 10%;
+  padding: 20px;
+ 
+
+
+
+}
+ul#redes{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+
+}
+
+
+h1{
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px;
+
+}
+h2{
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.2;
+text-align: center;
+  padding: 10px;
+ 
+
+
+}
